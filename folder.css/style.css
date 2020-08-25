@@ -1,248 +1,78 @@
+        body{
+        margin: 0;
+        background: #dedede;
+        display: flex;
+        align-items: center;
+        height: 100vh;
+      }
 
-*{
-	padding: 0px;
-	font-family: sans-serif;
-	font-size: 30px;
-	margin:0px;
-}
-:root{
-	--yellow:#d1ab31 ;
-	--green: #9eb930;
-	--dark:#6e6e6f;
-}
+      .gameboard {
+        height: 100vh;
+        width: 100vh;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: 0 auto;
+        max-height: 60vh;
+        max-width: 60vh;
+      }
 
-.conaitne{
-	position: relative;
-	text-align: center;
-	margin-top:70px ;
-	left: 180px ;
+      .color {
+        width: 50%;
+        height: 50%;
+        display: inline-block;
+      }
 
-	background: #d1ab31 ;
-	width: 40%;
-	height: 500px;
-}
+      .left {
+        float: left;
+      }
 
+      .right {
+        float: left;
+      }
 
-.pelota_bonba{
-	position: relative;
-	top:100px;
-	background: #6e6e6f;
-	width: 5%;
-	height: 30%;
-	text-align: center;
-	margin-top: 20px;
-	
-}
+      .celeste {
+        background: #22a6b3;
+      }
 
-.pelota_puntos1{
+      .celeste.light {
+        background: #7ed6df;
+      }
 
-	position: relative;
-	top:260px;
-    background: #d48bd4;
-	width: 5%;
-	height: 30%;
-	text-align: center;
+      .violeta {
+        background: #be2edd;
+      }
 
-	
-	
-}
+      .violeta.light {
+        background: #e056fd;
+      }
 
-.pelota_puntos2{
-	position: relative;
-	top:340px;
-    background: #d48bd4;
-	width: 5%;
-	height: 30%;
-	text-align: center;
-	
+      .naranja {
+        background: #f0932b;
+      }
 
-}
+      .naranja.light {
+        background: #ffbe76;
+      }
 
+      .verde {
+        background: #6ab04c;
+      }
 
-.pelota_puntos3{
-	position: relative;
-	top:340px;
-    background: #00ffff;
-	width: 5%;
-	height: 30%;
-	text-align: center;
-	
-	
+      .verde.light {
+        background: #badc58;
+      }
 
+      .btn-start {
+        width: 400px;
+        height: 100px;
+        background: #ecf0f1;
+        color: #2c3e50;
+        font-size: 2.5rem;
+        position: absolute;
+        top: calc(50% - 50px);
+        left: calc(50% - 200px);
+      }
 
-}
-
-.pelota_puntos4{
-	position: relative;
-	top:340px;
-    background:#00ffff;
-	width: 5%;
-	height: 30%;
-	text-align: center;
-
-	
-	
-
-
-}
-
-
-
-.pelota_puntos5{
-	position: relative;
-	top:340px;
-    background: #800080;
-	width: 5%;
-	height: 30%;
-	text-align: center;
-
-	
-	
-
-
-}
-
-.pelota_puntos6{
-	position: relative;
-	top:340px;
-    background: #800080;
-	width: 5%;
-	height: 30%;
-	text-align: center;
-
-	
-	
-
-
-}
-
-.pelota_puntos7{
-	position: relative;
-	top:340px;
-    background: #6060ce;
-	width: 5%;
-	height: 30%;
-	text-align: center;
-
-	
-	
-
-
-}
-.pelota_puntos8{
-	position: relative;
-	top:340px;
-    background: #6060ce;
-	width: 5%;
-	height: 30%;
-	text-align: center;
-
-	
-	
-
-
-}
-.pelota_puntos9{
-	position: relative;
-	top:340px;
-    background: #5bb75b;
-	width: 5%;
-	height: 30%;
-	text-align: center;
-
-	
-	
-
-
-}
-
-.pelota_puntos10{
-	position: relative;
-	top:340px;
-    background: #5bb75b;
-	width: 5%;
-	height: 30%;
-	text-align: center;
-
-	
-	
-
-
-}
-
-.pelota_puntos11{
-	position: relative;
-	top:340px;
-    background: #46bdbd;
-	width: 5%;
-	height: 30%;
-	text-align: center;
-
-	
-	
-
-
-}
-
-.pelota_puntos12{
-	position: relative;
-	top:340px;
-    background: #46bdbd;
-	width: 5%;
-	height: 30%;
-	text-align: center;
-
-	
-	
-
-
-}
-.pelota_puntos13{
-	position: relative;
-	top:340px;
-    background: #008080;
-	width: 5%;
-	height: 30%;
-	text-align: center;
-
-	
-	
-
-
-}
-.pelota_puntos14{
-	position: relative;
-	top:340px;
-    background: #008080;
-	width: 5%;
-	height: 30%;
-	text-align: center;
-
-	
-	
-
-
-}
-
-.iniciar_juego{
-	background: #7b6318;
-	color:#fff;
-	cursor: pointer;
-	border-radius: 24px;
-	border: none;
-	margin-top:25px;
-	padding: 10px;
-	font-size: 30px;
-} 
-
-.borrar{
-	display: none;
-}
-
-body{
-	/*background: red;*/
-}
-
-.dectectar{
-	border: 1px dashed red !important;
-}
+      .hide {
+        display: none;
+      }
