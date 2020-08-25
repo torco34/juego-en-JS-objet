@@ -1,3 +1,9 @@
+        *{
+          font-family: 'Ariel';
+        }
+
+
+
         body{
         margin: 0;
         background: #dedede;
